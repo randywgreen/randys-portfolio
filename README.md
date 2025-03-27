@@ -16,3 +16,9 @@ This repository contains a beautiful, responsive personal portfolio built using 
 - **Vite:** Fast and lean development build tool.
 - **TailwindCSS:** Utility-first CSS framework.
 - **JavaScript (ES6+):** Modern JavaScript features and best practices.
+
+## Dockerize
+
+- npm run build
+- docker build . -t "randys-portfolio:v1.0"
+- docker run -p 3000:3000 randys-portfolio:v1.0
