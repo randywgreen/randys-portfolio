@@ -20,5 +20,7 @@ This repository contains a beautiful, responsive personal portfolio built using 
 ## Dockerize
 
 - npm run build
-- docker build . -t "randys-portfolio:v1.0"
-- docker run -p 3000:3000 randys-portfolio:v1.0
+- npm install serve -g
+- serve -s dist
+- sudo docker build . -t "portfolio:v1.0"
+- sudo docker run portfolio:v1.0
