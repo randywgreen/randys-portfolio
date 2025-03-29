@@ -3,13 +3,12 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
     "TypeScript",
-    "TailwindCSS",
-    "Svelte",
+    "Bulma",
+    "Bootstrap",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", ".NET", "AWS", "MongoDB", "GraphQL"];
 
   return (
     <section
@@ -69,8 +68,8 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B.S. in Computer Information Systems </strong> - DeVry University
+                  (1993-1996)
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
@@ -84,22 +83,30 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    <span className="text-blue-500">Senior Software Engineer at Wells Fargo (2018 - 2024){" "}</span> 
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
+                  Built and enhanced security related web applications as part of a full stack Agile rapid development team.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Web Developer 4 at Wells Fargo (2014 - 2018){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  Built and maintained multiple websites for clients using ColdFusion, SQL Server 2010, jQuery, JavaScript, CSS, HTML, and various Web Services.
+                  </p>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold">
+                    {" "}
+                    Web Developer 4 at Wells Fargo (2007 - 2014){" "}
+                  </h4>
+                  <p>
+                  Oversaw Research and Development of new learning technology. Acting Development lead for Compliance Course development and maintenance.
                   </p>
                 </div>
               </div>
