@@ -70,10 +70,6 @@ export const About = () => {
                 <li>
                   <strong> B.S. in Computer Information Systems </strong> - DeVry University
                 </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
-                </li>
               </ul>
             </div>
             <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
