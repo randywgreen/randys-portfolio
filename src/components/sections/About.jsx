@@ -69,7 +69,6 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> B.S. in Computer Information Systems </strong> - DeVry University
-                  (1993-1996)
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
@@ -93,7 +92,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Web Developer 4 at Wells Fargo (2014 - 2018){" "}
+                    <span className="text-blue-500">Web Developer 4 at Wells Fargo (2014 - 2018){" "}</span>
                   </h4>
                   <p>
                   Built and maintained multiple websites for clients using ColdFusion, SQL Server 2010, jQuery, JavaScript, CSS, HTML, and various Web Services.
@@ -103,7 +102,7 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Web Developer 4 at Wells Fargo (2007 - 2014){" "}
+                    <span className="text-blue-500">Web Developer 4 at Wells Fargo (2007 - 2014){" "}</span>
                   </h4>
                   <p>
                   Oversaw Research and Development of new learning technology. Acting Development lead for Compliance Course development and maintenance.

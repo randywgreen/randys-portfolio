@@ -128,7 +128,7 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">iAlertU Application</h3>
               <p className="text-gray-400 mb-4">
-              Designed and developed in C/Objective C a remote-controlled alarm system application for the MacBook line of Apple notebook computers. The iAlertU application was recognized at the 2006 Apple World Wide Development Conference (WWDC)
+              Designed and developed in C/Objective C a remote-controlled alarm system application for the MacBook line of Apple computers. The iAlertU application was recognized at the Apple World Wide Development Conference (WWDC)
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["C/Objective C"].map((tech, key) => (
