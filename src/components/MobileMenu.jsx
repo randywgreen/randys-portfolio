@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-
+// eslint-disable-next-line react/prop-types
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
