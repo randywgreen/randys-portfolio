@@ -13,7 +13,7 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a results driven Software Engineer with expertise in developing innovative products. Proven history of providing software and full-stack application solutions for internal and external customers. A strong collaborator with excellent written and verbal communication skills.
+            I&apos;m a results driven Software Engineer with expertise in developing innovative products. Proven history of providing software and full-stack application solutions for internal and external customers. A strong collaborator with excellent written and verbal communication skills.
           </p>
           <div className="flex justify-center space-x-4">
             <a
