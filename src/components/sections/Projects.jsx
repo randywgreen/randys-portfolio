@@ -110,6 +110,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
                   href="https://github.com/randywgreen/PommeDeTerreLakeSkill"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -148,6 +149,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
+                  target="_blank"
                   href="https://www.youtube.com/watch?v=KkAtRfA1UXc"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
